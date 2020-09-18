@@ -10,8 +10,7 @@
  * Functions
  * Require all PHP files in the /functions/ directory
  */
-foreach (glob(get_template_directory() . "/functions/*.php") as $function) {
-  $function= basename($function);
-  require get_template_directory() . '/functions/' . $function;
+foreach ( glob( plugin_dir_path( __FILE__ ) . "functions/*.php" ) as $file ) {
+  include_once $file;
 }
 
