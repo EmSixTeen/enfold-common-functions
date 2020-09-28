@@ -2,9 +2,10 @@
 /**
  * Plugin Name: Enfold - Common Functions
  * Description: A collection of common functions for Enfold.
- * Version: 1.2020.09.18
+ * Version: 1.2020.09.28
  * Author: Aaron Gregg
  * Author URI: https://aarongregg.com
+ * GitHub Plugin URI: EmSixTeen/enfold-common-functions
  */
 /**
  * Functions
